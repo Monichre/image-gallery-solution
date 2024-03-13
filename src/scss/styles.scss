@@ -1,0 +1,144 @@
+.col {
+  position: relative;
+  div {
+    border: 1px solid #eee;
+    border-radius: 1px;
+    height: 300px;
+    width: 100%;
+  }
+  input[type='checkbox'] {
+    visibility: hidden;
+    // opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    // z-index: -1;
+  }
+
+  // how do you style a selected chjeckbox?
+
+  input[type='checkbox'] + label {
+    background: url('https://acre-image-collections.s3.amazonaws.com/image-6578722caea701702392364_medium.jpg')
+      no-repeat 0 center;
+    background-size: cover;
+    cursor: pointer;
+    height: 100%;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
+  }
+
+  input[type='checkbox']:checked + label {
+    border: 2px solid red; /* Style for when the checkbox is checked */
+  }
+
+  &:nth-of-type(1) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(2) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(3) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-657871ff7d8401702392319_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(4) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-657872175b22e1702392343_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(5) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(6) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6578722caea701702392364_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(7) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+
+  &:nth-of-type(8) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(9) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-657871ff7d8401702392319_medium.jpg');
+    }
+  }
+  &:nth-of-type(10) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-657872175b22e1702392343_medium.jpg');
+    }
+  }
+  // Add more as needed, following the pattern
+  &:nth-of-type(11) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+  &:nth-of-type(12) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+  &:nth-of-type(13) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(14) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(15) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(16) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(17) {
+    input[type='checkbox'] + label {
+      background-image: url('https://acre-image-collections.s3.amazonaws.com/image-6576286c7c4b61702242412_medium.jpg');
+    }
+  }
+  &:nth-of-type(18) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+  &:nth-of-type(19) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+  &:nth-of-type(20) {
+    input[type='checkbox'] + label {
+      background-image: url(' https://acre-image-collections.s3.amazonaws.com/image-6578af5f9af671702408031_medium.jpg');
+    }
+  }
+}
